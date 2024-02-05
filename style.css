@@ -1,5 +1,91 @@
+/* all change */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.container{
+    margin: 5vh;
+}
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+/*--------------------------- header change-------------------- */
+.header{
+}
+.topside{
+    text-align: center;
+    background-color: #ea648c;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.menu-list{
+    display: flex;
+    padding: 5px;
+}
+li:hover{
+    background-color: #f49073;
+    border-radius: 10px;
+}
+.menu-list .menu-item{
+    padding: 10px;
+}
+/* ---------------------------section --------------------- */
+.section {
+    border-radius: 10px;
+    background-image: url(image/background.svg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    background-attachment: fixed;
+    text-align: center;
+}
+.h1-text{
+    padding: 100px 0 50px;
+    font-size: 40px;
+}
+.section-desc{
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+.sec-butt {
+    background-color: yellow;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+/* ----------------------------footer--------------------- */
+.footer-foot{
+    background-color: aqua;
+    height: 400px;
+    margin: 10px 0 20px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+.foot-image {
+    background-image: url(image/photo_2023-08-11_18-11-37\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   position: absolute;
+   top: -60px;
+   left: 40%;
+   right: 60%;g
+    
+}
+.auther {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    right: 30%;
 }
