@@ -69,23 +69,25 @@ li:hover{
     border-radius: 10px;
     padding: 20px;
     position: relative;
+    text-align: center;
 }
 .foot-image {
     background-image: url(image/photo_2023-08-11_18-11-37\ \(2\).jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    
    position: absolute;
    top: -60px;
-   left: 40%;
-   right: 60%;g
-    
+   left: 45%;
+   right:45%;
 }
-.auther {
-    position: absolute;
-    bottom: 10px;
-    left: 40%;
-    right: 30%;
+.auther  {
+   position: absolute;
+   bottom:10px ;
+   left: 40%;
+   right: 40%;
 }
